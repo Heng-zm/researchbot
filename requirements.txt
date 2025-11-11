@@ -1,0 +1,15 @@
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+duckduckgo-search==5.0.0
+newspaper3k==0.2.8
+python-dotenv==1.0.1
+markdownify==0.12.1
+selenium==4.17.2
+urllib3==2.2.0
+pandas==2.2.0
+rich==13.7.0
+transformers==4.36.0
+torch==2.1.0
+sentencepiece==0.1.99
+ollama==0.1.6
