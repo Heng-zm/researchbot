@@ -26,9 +26,10 @@ Pillow>=10.0.0
 
 # Optional: AI/LLM support
 # Uncomment if you're using Ollama or other AI backends
-# ollama>=0.1.0
-# langchain>=0.1.0
+ollama>=0.1.6
+transformers>=4.36.0
+langchain>=0.1.0
 
 # Optional: Additional search APIs
-# google-api-python-client>=2.100.0  # For Google Custom Search
-# SerpApi>=2.4.0  # For SerpAPI support
+google-api-python-client>=2.100.0  # For Google Custom Search
+SerpApi>=2.4.0  # For SerpAPI support
