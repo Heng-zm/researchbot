@@ -2,6 +2,7 @@
 requests>=2.31.0
 beautifulsoup4>=4.12.3
 lxml>=5.2.0
+lxml-html-clean>=0.1.0
 python-dotenv>=1.0.1
 
 # Search engines
@@ -9,8 +10,8 @@ duckduckgo-search>=6.3.0
 selenium>=4.20.0
 urllib3>=2.2.0
 
-# Content parsing
-newspaper3k>=0.2.8
+# Content parsing - using newspaper4k (maintained fork)
+newspaper4k>=0.9.3
 markdownify>=0.13.0
 
 # Data processing
