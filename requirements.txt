@@ -17,6 +17,7 @@ markdownify>=0.13.0
 # Data processing
 pandas>=2.2.3
 numpy>=1.26.0
+rich==13.7.0
 
 # Telegram bot
 python-telegram-bot>=21.0
@@ -29,6 +30,8 @@ Pillow>=10.0.0
 ollama>=0.1.6
 transformers>=4.36.0
 langchain>=0.1.0
+torch==2.1.0
+sentencepiece==0.1.99
 
 # Optional: Additional search APIs
 #google-api-python-client>=2.100.0  # For Google Custom Search
