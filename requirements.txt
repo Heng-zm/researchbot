@@ -1,12 +1,33 @@
+# Core dependencies
 requests>=2.31.0
 beautifulsoup4>=4.12.3
 lxml>=5.2.0
-duckduckgo-search>=6.0.0
-newspaper3k>=0.2.8
 python-dotenv>=1.0.1
-markdownify>=0.13.0
+
+# Search engines
+duckduckgo-search>=6.3.0
 selenium>=4.20.0
 urllib3>=2.2.0
+
+# Content parsing
+newspaper3k>=0.2.8
+markdownify>=0.13.0
+
+# Data processing
 pandas>=2.2.3
+numpy>=1.26.0
+
+# Telegram bot
 python-telegram-bot>=21.0
-Pillow>=10.0.0  # Add this for image handling
+
+# Image processing (for image search feature)
+Pillow>=10.0.0
+
+# Optional: AI/LLM support
+# Uncomment if you're using Ollama or other AI backends
+# ollama>=0.1.0
+# langchain>=0.1.0
+
+# Optional: Additional search APIs
+# google-api-python-client>=2.100.0  # For Google Custom Search
+# SerpApi>=2.4.0  # For SerpAPI support
